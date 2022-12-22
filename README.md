@@ -1,64 +1,51 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<h1>Poultry Company Management System</h1>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<p>Welcome to the Poultry Company Management System! This system is built using Laravel 8 and is designed to assist poultry companies in managing their operations, including keeping track of inventory, processing orders, and generating reports.</p>
+<h2>Images</h2>
+![image](https://user-images.githubusercontent.com/92811807/209137550-d4a35928-c3c9-4650-9f71-5a9679b01edd.png)
+![image](https://user-images.githubusercontent.com/92811807/209137577-50b5661d-bce9-4e86-96c8-d5bea2c62352.png)
+![image](https://user-images.githubusercontent.com/92811807/209137603-ab4880e5-24cb-4d9e-ab74-ea2ff0c2001a.png)
+![image](https://user-images.githubusercontent.com/92811807/209137685-a8eadfda-9ac5-4302-b6cb-e9f1a73bc400.png)
+![image](https://user-images.githubusercontent.com/92811807/209137700-c8c9caa5-8f3b-4d95-a427-ea65dbf97c66.png)
+![image](https://user-images.githubusercontent.com/92811807/209137726-0042a4cc-763e-40fb-aaaa-f50bc6149ea2.png)
+![image](https://user-images.githubusercontent.com/92811807/209137756-fbfd3841-67c1-4b2e-af1c-dbd60a436ac8.png)
+![image](https://user-images.githubusercontent.com/92811807/209137788-ec11130c-b773-497c-b2a5-e3cbf54ac490.png)
+![Uploading image.png…]()
 
-## About Laravel
+<h2>Features</h2>
+<ul>
+  <li>Keep track of inventory for different types of poultry</li>
+  <li>Process orders and generate invoices</li>
+  <li>Generate reports on sales, expenses, and profit</li>
+  <li>Manage employee information and payroll</li>
+  <li>Set and track goals for the company</li>
+</ul>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<h2>Getting Started</h2>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<h3>Prerequisites</h3>
+<ul>
+  <li>Install <a href="https://www.php.net/downloads.php">PHP 7.3 or later</a> and <a href="https://getcomposer.org/">Composer</a></li>
+  <li>Install the required dependencies by running <code>composer install</code></li>
+  <li>Rename the <code>.env.example</code> file to <code>.env</code> and set the necessary environment variables</li>
+</ul>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<h3>Running the Application</h3>
+<ol>
+  <li>Clone the repository: <code>git clone https://github.com/[username]/poultry-management-system.git</code></li>
+  <li>Navigate to the project directory: <code>cd poultry-management-system</code></li>
+  <li>Generate an application key: <code>php artisan key:generate</code></li>
+  <li>Run the database migrations: <code>php artisan migrate</code></li>
+  <li>Start the development server: <code>php artisan serve</code></li>
+</ol>
 
-## Learning Laravel
+<h2>Technologies Used</h2>
+<ul>
+  <li>Laravel 8</li>
+  <li>PHP 7.3+</li>
+  <li>MySQL</li>
+</ul>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+<h2>Contributing</h2>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<p>I welcome contributions to the Poultry Company Management System! If you have an idea for a new feature or have found a bug, please open an issue. If you would like to contribute code, please create a pull request.</p>
