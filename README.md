@@ -10,7 +10,7 @@
 ![image](https://user-images.githubusercontent.com/92811807/209137726-0042a4cc-763e-40fb-aaaa-f50bc6149ea2.png)
 ![image](https://user-images.githubusercontent.com/92811807/209137756-fbfd3841-67c1-4b2e-af1c-dbd60a436ac8.png)
 ![image](https://user-images.githubusercontent.com/92811807/209137788-ec11130c-b773-497c-b2a5-e3cbf54ac490.png)
-![Uploading image.png…]()
+
 
 <h2>Features</h2>
 <ul>
